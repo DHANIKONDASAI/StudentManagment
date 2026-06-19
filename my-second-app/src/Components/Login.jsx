@@ -26,7 +26,7 @@ function Login() {
             console.log("Sending Login Data:", loginUser);
 
             const res = await axios.post(
-                "http://localhost:8080/api/faculty/login",
+                "https://studentmanagment-2-xqyw.onrender.com/api/faculty/login",
                 loginUser
             );
 

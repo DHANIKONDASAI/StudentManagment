@@ -25,7 +25,7 @@ function Register() {
             console.log("Sending Data:", data);
 
             const res = await axios.post(
-                "http://localhost:8080/api/faculty/register",
+                "https://studentmanagment-2-xqyw.onrender.com/api/faculty/register",
                 data
             );
 
